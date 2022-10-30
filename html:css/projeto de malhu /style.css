@@ -1,0 +1,165 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #262335;
+}
+
+header {
+  grid-area: h;
+}
+main {
+  position: relative;
+  box-shadow: 0px 0px 5px 0px;
+  grid-area: m;
+  z-index: 1;
+}
+aside {
+  position: relative;
+  grid-area: a;
+}
+footer {
+  background: #1f1d2b;
+
+  grid-area: f;
+}
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 15vh 90vh 14vh;
+  grid-template-areas:
+    "h h "
+    "m a"
+    "f f";
+}
+
+.pos1 {
+  left: 100vh;
+  top: 100vh;
+  z-index: 0;
+}
+.cont {
+  position: fixed;
+  width: 100vw;
+  height: 7vw;
+  border-radius: 0vw 0vw 4vw 4vw;
+  background-color: #b839ba;
+  box-shadow: 0px 0px 10px 1px #000;
+  z-index: 2;
+}
+.logo {
+  position: fixed;
+  left: 3vw;
+  margin: 0.3vw;
+  border-radius: 6vw;
+  width: 6vw;
+  height: 6vw;
+}
+.nome {
+  position: fixed;
+  top: 1.4vw;
+  left: 10vw;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 2.5vw;
+  background-color: #b839ba;
+}
+.opc1 {
+  position: fixed;
+  top: 4vw;
+  left: 60vw;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 2vw;
+  background-color: #b839ba;
+}
+.opc2 {
+  position: fixed;
+  top: 4vw;
+  left: 70vw;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 2vw;
+  background-color: #b839ba;
+}
+.opc3 {
+  position: fixed;
+  top: 4vw;
+  left: 80vw;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 2vw;
+  background-color: #b839ba;
+}
+
+.botao1 {
+  width: 5vw;
+  height: 5vw;
+  position: fixed;
+  top: 1.5vw;
+  left: 90vw;
+  background-color: #1e00ff;
+}
+
+.fprinc {
+  position: absolute;
+  float: left;
+  left: 25vw;
+  top: 3vw;
+
+  width: 30vw;
+  height: 20vw;
+}
+div#eventos {
+  position: relative;
+
+  width: 23vw;
+  height: 7vw;
+  left: 1vh;
+  top: 1vw;
+  border-radius: 0vw 2vw 2vw 2vw;
+  background-color: #b839ba;
+}
+h4#escrita {
+  border-radius: 0vw 0.5vw 0vw 0vw;
+  background-color: #b839ba;
+  color: aliceblue;
+}
+.fevento {
+  float: left;
+
+  border-radius: 0vw 0vw 0vw 2vw;
+  position: relative;
+  width: 7vw;
+  height: 7vw;
+}
+div#eventos1 {
+  position: relative;
+  width: 23vw;
+  height: 7vw;
+  left: 1vh;
+  top: 6vw;
+  border-radius: 0vw 2vw 2vw 2vw;
+  background-color: #b839ba;
+}
+div#eventos2 {
+  position: relative;
+
+  width: 23vw;
+  height: 7vw;
+  left: 1vw;
+  top: 11vw;
+  border-radius: 0vw 2vw 2vw 2vw;
+  background-color: #b839ba;
+}
+.escritap {
+  position: absolute;
+  top: 25vw;
+  color: aliceblue;
+  bottom: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nomep{
+    color: aliceblue;
+}
