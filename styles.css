@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* Home */
+.PageHome{
+    height:100vh;
+}
+/* Sobre nos */
+.PageSobrenos{
+    height:100vh;
+}
+/* PageAvaliacoes */
+.PageAvaliacoes{
+    height:100vh;
+}
+/* Comunidade */
+.PageComunidade{
+    height:100vh;
+}
+/* Membros */
+.PageMembros{
+    height:100vh;
+}
+/* Publicidade */
+.PagePublicidade{
+    height:100vh;
+}
+/* Ultimas Noticias */
+.PageUltimasNoticias{
+    height:100vh;
+}
+/* Footer - Pagina 8 */
+.PageFooter{
+    height:100vh;
+}
