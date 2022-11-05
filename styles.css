@@ -6,14 +6,66 @@
 /* Home */
 .PageHome{
     height:100vh;
+    background-color: green;
 }
 /* Sobre nos */
 .PageSobrenos{
     height:100vh;
+    background-color: #FFFFFF;
 }
+#Sobrenos_txt0{
+    position: relative;
+    color:rgb(33, 123, 244, 1) ;
+    padding-top: 15%;
+    padding-left: 10%;
+    font-size: 18px;
+}
+#Sobrenos_h1{
+    padding-left: 10%;
+    width: 40%;
+    color: rgba(10, 9, 61, 1);
+    font-size: 36px;
+    padding-top: 1%;
+}
+#Sobrenos_txt1{
+    color:rgba(101, 100, 100, 1);
+    width: 40%;
+    padding-left: 10%;
+    padding-top: 1%;
+    font-size: 16px;
+}
+#Sobrenos_lista0{
+    padding-left: 12%;
+    color: rgba(23, 22, 72, 1);
+    font-size: 18px;
+    padding-top: 2%;
+    list-style-type: none;
+}
+#Sobrenos_lista0 #sobrenos_itens::before {
+    content: "\2022";
+    color: #217BF4;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    padding-top: 1%;
+  }
+  #Sobrenos_imagens1{
+    display: flex;
+    margin-top: -25%;
+    padding: 5%;
+    margin-left: 50%;
+  }
+  #Sobrenos_imagens2{
+    position: relative;
+    padding: 1%;
+    margin-left: 74%;
+    bottom: 75%;
+  }
 /* PageAvaliacoes */
 .PageAvaliacoes{
     height:100vh;
+    background-color: green;
 }
 /* Comunidade */
 .PageComunidade{
