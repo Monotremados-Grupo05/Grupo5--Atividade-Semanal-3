@@ -8,8 +8,7 @@
 
 .PageHome{
     height:100vh;
-    background-color:#D4E7FE;
-    background-color:#FFFFFF;
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
 }
 button{
     cursor: pointer;
@@ -292,6 +291,97 @@ top: 9%;
 /* Comunidade */
 .PageComunidade{
     height:100vh;
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#CommunitySection1{
+    display:flex;   
+    align-items:center;
+    flex-direction:column;
+    margin-top: 1.9%;
+    margin-bottom: 1.9%;
+    margin-left: 3%;
+}
+#CommunityP1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #217BF4;
+    font-family: 'Inter', sans-serif;
+}
+#CommunityH1{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+}
+#CommunityP2{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #656464;
+    width: 421px;
+}
+.RetanguloColunas{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+    gap: 5%;
+}
+.RetanguloColunaEsquerda{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 45px; */
+}
+.Quadrados{
+    display: flex;
+    flex-direction: row;
+    width: 522px;
+    height: 182px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    border: 1px;
+    gap: 20px;
+    margin-bottom: 5%;
+}
+.ContainerText{
+    display: flex;
+    flex-direction: column;
+    width: 365px;
+    margin-top: 8%;
+}
+.TitleQuadrados{
+    width: 209px;
+    height: 26px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: #2F2C4A;
+}
+.TextQuadrados{
+    width: 315px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #656464;
+    margin-top: 2.5%;
+}
+.imgs{
+    width: 66px;
+    height: 66px;
+    margin-top: 7%;
+    margin-left: 4%;
 }
 /* Membros */
 .PageMembros{
