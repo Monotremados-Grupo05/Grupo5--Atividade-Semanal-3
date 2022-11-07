@@ -297,6 +297,89 @@ top: 9%;
 .PageMembros{
     height:100vh;
 }
+#membros_headertxt{
+    text-align: center;
+    position: relative;
+    color: rgba(33, 123, 244, 1);
+    font-size: 18px;
+    top: 10%;
+}
+#membros_header{
+   position: relative;
+   color: rgba(10, 9, 61, 1);
+   text-align: center;
+   font-size: 40px;
+   top: 10%;
+}
+#membros_texto1{
+    position: relative;
+    color: rgba(101, 100, 100, 1);
+    text-align: center;
+    top: 13%;
+    left: 35%;
+    font-size: 18px;
+    width: 450px;
+}
+#membros_rectangulo{
+    position: relative;
+    background-color: rgba(185, 185, 185, 0.04);
+    width: 474px;
+    height: 72px;
+    left: 35%;
+    top: 17%;
+    border-radius: 14px;
+}
+#membros_botao3{
+    position: relative;
+    left: 67%;
+    bottom: 15%;
+    width: 150px;
+    height: 56px;
+    background-color: rgba(33, 123, 244, 1);
+    border-radius: 14px;
+    justify-content: space-between;
+}
+#membros_botao{
+    display: inline;
+    position: relative;
+    color: rgba(47, 44, 74, 1);
+    top: 35%;
+    left: 15%;   
+}
+.membros_alterarcor{
+    color: rgba(255, 255, 255, 1); 
+}
+#membros_quadrados{
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(243, 243, 243, 0.5);
+    width: 270px;
+    height: 316px;
+    display: inline-block;
+    border-radius: 14px;
+    margin: 2%;
+    left: 5%;
+    top: 17%;
+}
+#membros_imagens1{
+    position: relative;
+    top: 10%;
+    left: 15%;
+}
+#membros_nomes{
+    position: relative;
+    color: rgba(47, 44, 74, 1);
+    font-size: 24px;
+    text-align: center;
+    top: 15%;
+}
+#membros_ids{
+    position: relative;
+    color: rgba(101, 100, 100, 1) ;
+    font-size: 16px;
+    text-align: center;
+    top: 20%;
+}
 /* Publicidade */
 .PagePublicidade{
     height:100vh;
@@ -309,3 +392,4 @@ top: 9%;
 .PageFooter{
     height:100vh;
 }
+
