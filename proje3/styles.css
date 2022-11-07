@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* Home */
+.PageHome{
+    height:100vh;
+}
+/* Sobre nos */
+.PageSobrenos{
+    height:100vh;
+}
+/* PageAvaliacoes */
+.PageAvaliacoes{
+    height:100vh;
+}
+/* Comunidade */
+.PageComunidade{
+    height:100vh;
+}
+/* Membros */
+.PageMembros{
+    height:100vh;
+}
+/* Publicidade */
+.PagePublicidade{
+    height:70vh;
+    background-color: #E5F0FD;
+}
+.lucas-comu-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+    
+   
+   
+   
+
+    grid-area: m;
+} 
+.lucas-cont-escrita{ 
+    
+    justify-content: left;
+    font-size: 1.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 13vw;
+    padding-right: 13vw;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+    line-height: 2vw;
+}
+#lucascor1{
+    color: #217BF4;
+}
+#lucascor2{
+    padding-left: 0vw;
+    padding-right: 1vw;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+
+    font-size: 2vw;
+    color: #0A093D;
+}
+#lucascor3{
+    font-weight: lighter;
+    color: #656464;
+}
+#lucasfotoand1{
+    position: relative;
+    right: 1.5vw;
+}
+
+#lucasfotoand2{
+    position: relative;
+    top: -1.5vw;
+    right: 1.5vw;
+
+}
+.lucas-comu-aside{
+    display: flex;
+    justify-content: end;
+    
+    
+    grid-area: a;
+}
+
+.lucas-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70vh 100vh 10vh;
+    grid-template-areas: "m a";
+}
+/* Ultimas Noticias */
+.PageUltimasNoticias{
+    height:100vh;
+    
+}
+.lucas-container2{ 
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100vh 100vh 10vh;
+    grid-template-areas: "a1 a2 a3";
+   
+    
+
+    
+}
+.lucaslugar1{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    grid-area: a1;
+}
+.lucaslugar2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    grid-area: a2;
+}
+.lucaslugar3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    grid-area: a3;   
+}
+
+.lucas-escrita12{
+    padding-left: 5vw;
+    padding-right: 15vw;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    
+}
+.lucasimg{
+    border-radius: 2vw;
+    width: 347px;
+    height: 363px;
+}
+.lucaslinha{
+    height: 5vw;
+    color: rgb(0, 0, 0);
+}
+
+/* Footer - Pagina 8 */
+.PageFooter{
+    height:100vh;
+}
