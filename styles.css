@@ -6,66 +6,120 @@
 /* Home */
 .PageHome{
     height:100vh;
-    background-color: green;
 }
 /* Sobre nos */
 .PageSobrenos{
     height:100vh;
-    background-color: #FFFFFF;
 }
-#Sobrenos_txt0{
-    position: relative;
-    color:rgb(33, 123, 244, 1) ;
-    padding-top: 15%;
-    padding-left: 10%;
-    font-size: 18px;
-}
-#Sobrenos_h1{
-    padding-left: 10%;
-    width: 40%;
-    color: rgba(10, 9, 61, 1);
-    font-size: 36px;
-    padding-top: 1%;
-}
-#Sobrenos_txt1{
-    color:rgba(101, 100, 100, 1);
-    width: 40%;
-    padding-left: 10%;
-    padding-top: 1%;
-    font-size: 16px;
-}
-#Sobrenos_lista0{
-    padding-left: 12%;
-    color: rgba(23, 22, 72, 1);
-    font-size: 18px;
-    padding-top: 2%;
-    list-style-type: none;
-}
-#Sobrenos_lista0 #sobrenos_itens::before {
-    content: "\2022";
-    color: #217BF4;
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;
-    padding-top: 1%;
-  }
-  #Sobrenos_imagens1{
-    display: flex;
-    margin-top: -25%;
-    padding: 5%;
-    margin-left: 50%;
-  }
-  #Sobrenos_imagens2{
-    position: relative;
-    padding: 1%;
-    margin-left: 74%;
-    bottom: 75%;
-  }
 /* PageAvaliacoes */
 .PageAvaliacoes{
     height:100vh;
-    background-color: green;
+}
+#Avaliacoes_quadrados{
+display: inline-block;
+position: relative;
+margin: 2%;
+width: 336px;
+height: 340px;
+background-color: rgba(185, 185, 185, 0.12);
+border-radius: 14px;
+top: 20%;
+left: 6%;
+box-shadow: 0px 5px 20px;
+}
+#avaliacoes_imagens1{
+position: relative;
+left: 9%;
+top: 9%;
+}
+#avaliacoes_linha1{
+    position: relative;
+    color: #0A093D;
+    font-size: 20px;
+    left: 20%;
+}
+#avaliacoes_imagens2{
+    position: relative;
+    left: 3%;
+    top: 5%;
+}
+#avaliacoes_imagens3{
+    position: relative;
+    left: 15%;
+    top: 4%;
+}
+#avaliacoes_linha2{
+    position: relative;
+    color: #5D5B70;
+    font-size: 16px;
+    left: 30%;
+    bottom: 8%;
+}
+.Aavaliacoes_alterarcor{
+    color: #217BF4; 
+}
+#avaliacoes_texto1{
+    position: relative;
+    color: #8C8C8C;
+    width: 274px;
+    text-align: left;
+    left: 10%;
+    top: 3%;
+}
+#avaliacoes_link1{
+    position: relative;
+    color: #217BF4;
+    left: 10%;
+    top: 15%;
+    font-size: 16px;
+}
+#avaliacoes_link2{
+    position: relative;
+    color: #4A4A56;
+    left: 10%;
+    top: 15%;
+    font-size: 16px;
+}
+#Avaliacoes_direita{
+    position: relative;
+    left: 70%;
+    bottom: 30%;
+}
+#avaliacoes_texto2{
+    color: #217BF4;
+    font-size: 18px;
+    line-height: 18px;
+}
+#avaliacoes_h2{
+    position: relative;
+    padding-top: 1%;
+    width: 320px;
+    font-size: 35px;
+    line-height: 48px;
+}
+#avaliacoes_texto3{
+    position: relative;
+    padding-top: 1%;
+    color: #656464;
+    font-size: 16px;
+    line-height: 28px;
+    width: 320px;
+}
+#avaliacoes_botao{
+    position: relative;
+    left: 70%;
+    bottom: 20%;
+    background-color: rgba(33, 123, 244, 1);
+    width: 192px;
+    height: 58px;
+    border-radius: 14px;
+}
+#avaliacoes_botaotxt{
+    position: relative;
+    text-align: center;
+    top: 30%;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
 }
 /* Comunidade */
 .PageComunidade{
